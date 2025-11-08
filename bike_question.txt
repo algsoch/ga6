@@ -1,0 +1,96 @@
+1. "As a strategic consultant for a premium motorcycle dealership chain, your objective is to analyze the key factors influencing motorcycle resale value in Gujarat. Specifically, you will evaluate the impact of mileage (km/l), average daily distance traveled, and engine capacity on price retention (%) for TVS. Use Pearson Correlation Coefficient and price retention is (resale price / original price).
+
+'AvgDistance: -0.13'
+
+'Mileage: 0.07'
+
+'Mileage: 0.95'
+
+'EngineCapacity: 0.04'"
+2."As a strategic consultant for a premium motorcycle dealership chain, your objective is to analyze the key factors influencing motorcycle resale value in West Bengal. Specifically, you will evaluate the impact of mileage (km/l), average daily distance traveled, and engine capacity on price retention (%) for Yamaha. Use Pearson Correlation Coefficient and price retention is (resale price / original price).
+
+'Mileage: 0.06'
+
+'Mileage: 0.95'
+
+'AvgDistance: -0.13'
+
+'EngineCapacity: -0.02'
+"
+3."As a market researcher for a premium motorcycle dealership chain, analyze the relationship between original prices, resale values, and engine capacity across different city tiers. Given a 2015 model motorcycle with an engine capacity of 423.0245892 cc, a mileage of 40.51805532, a Electric type, an average daily distance of 41.79131515 km, and an original purchase price of 264102.8387, what would be its predicted resale price in a Tier 2 city?
+
+126725
+
+254815
+
+172773
+
+191628
+"
+4. "As an investment analyst monitoring motorcycle resale values, develop a forecasting model to predict future resale prices by brand and segment, considering seasonality and long-term trends. Specifically, forecast the 2027 resale value of the Kawasaki - Versys 650 in Delhi, using historical data.
+
+122616
+
+168830
+
+227458
+
+233880
+
+
+5. "As a vehicle testing authority tasked with investigating potentially fraudulent mileage claims, design a robust anomaly detection system to identify statistically significant deviations in reported mileage. Determine the number of fradulent records for Electric vehicles in Maharashtra based on IQR rule with 0.5 multiplier (instead of 1.5 multiplier).
+
+27
+
+29
+
+13
+
+5
+"
+
+6. "As a vehicle testing authority tasked with investigating potentially fraudulent mileage claims, design a robust anomaly detection system to identify statistically significant deviations in reported mileage. Determine the number of fradulent records for Electric vehicles in Uttar Pradesh based on IQR rule with 0.5 multiplier (instead of 1.5 multiplier).
+
+14
+
+17
+
+1
+
+22
+"
+
+7. "A wildfire is threatening a rural mountain region, and emergency services need to coordinate evacuation routes for four remote communities. The Emergency Management Center is located at a central command post, and must plan the most efficient evacuation route to ensure rapid and safe community evacuation. The four communities are: Silver Haven Junction : (27.6846,-103.3366) ;Maple Meadows Village : (27.6239,-103.3352);North Lake Sanctuary : (27.5037,-103.3091);Rocky Canyon Landing : (27.6314,-103.3025) & Central Command Post Location: (27.6072,-103.2503) Using the Haversine package, calculate the distance from the Central Command Post to Silver Haven Junction. Which of the following is the MOST ACCURATE distance
+
+4801 meters
+
+5804 meters
+
+5189 meters
+
+7150 meters"
+
+
+8. "If the four communities are: North Falls Sanctuary : (26.5015,-74.3304) ;Pleasant Springs Outpost : (26.548,-74.2694);Green Ridge Hamlet : (26.3444,-74.1077);Blue Shores Sanctuary : (26.381,-74.1365) & Central Command Post Location: (26.4652,-74.2424)
+Which community is closest to the Central Command Post?
+
+Blue Shores Sanctuary
+
+Pleasant Springs Outpost
+
+North Falls Sanctuary
+
+Green Ridge Hamlet
+"
+
+9." If the four communities are: Blue Bluff Junction : (43.1811,-97.1838) ;Eagle Glen Outpost : (43.3218,-97.2716);River Bluff Station : (43.1543,-97.2825);Pleasant Point Town : (43.22,-97.3679) & Central Command Post Location: (43.2752,-97.3323)
+Using the "nearest community first" evacuation strategy, where the nearest community is determined by the shortest path distance from one community to the other location points, what would be the optimal sequence for evacuating the communities?
+
+['Start/End', 'Blue Bluff Junction', 'Pleasant Point Town', 'River Bluff Station', 'Eagle Glen Outpost', 'Start/End']
+
+['Start/End', 'River Bluff Station', 'Blue Bluff Junction', 'Pleasant Point Town', 'Eagle Glen Outpost', 'Start/End']
+
+['Start/End', 'Pleasant Point Town', 'River Bluff Station', 'Blue Bluff Junction', 'Eagle Glen Outpost', 'Start/End']
+
+['Start/End', 'Eagle Glen Outpost', 'Blue Bluff Junction', 'River Bluff Station', 'Pleasant Point Town', 'Start/End']
+"

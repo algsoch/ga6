@@ -1,0 +1,14 @@
+Question,Answer
+Q1,"Mileage: 0.07 (p-value: 0.433)
+AvgDistance: -0.13 (p-value: 0.148)
+EngineCapacity: 0.04 (p-value: 0.637)"
+Q2,"Mileage: 0.06 (p-value: 0.515)
+AvgDistance: -0.13 (p-value: 0.123)
+EngineCapacity: -0.02 (p-value: 0.832)"
+Q3,No Tier 2 data available for regression.
+Q4,Forecasted resale price for 2027: 161421
+Q5,Anomalous records in Maharashtra: 5
+Q6,Anomalous records in Uttar Pradesh: 17
+Q7,Distance: 12097 meters
+Q8,Closest community: Pleasant Springs Outpost
+Q9,"Evacuation route: ['Start/End', 'Pleasant Point Town', 'River Bluff Station', 'Blue Bluff Junction', 'Eagle Glen Outpost', 'Start/End']"

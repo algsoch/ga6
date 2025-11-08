@@ -1,0 +1,49 @@
+Question,Answer,Solution
+Q1: TVS in Gujarat - Price retention correlation analysis,-0.13,"Analysis of TVS motorcycles in Gujarat:
+All correlations with price retention:
+Mileage: 0.07
+AvgDistance: -0.13
+EngineCapacity: 0.04
+
+The absolute maximum correlation coefficient is -0.13 for AvgDistance."
+Q2: Yamaha in West Bengal - Price retention correlation analysis,-0.13,"Analysis of Yamaha motorcycles in West Bengal:
+All correlations with price retention:
+Mileage: 0.06
+AvgDistance: -0.13
+EngineCapacity: -0.02
+
+The absolute maximum correlation coefficient is -0.13 for AvgDistance."
+Q3: Predict resale price for a Tier 2 motorcycle,160073,"Used Random Forest Regressor (100 trees) on 2487 Tier 2 motorcycles.
+Predicting for Example bike (EngineCapacity=423.02, Mileage=40.52, AvgDistance=41.79, OriginalPrice=264102.84)
+Feature importances:
+EngineCapacity: 0.0423
+Mileage: 0.0428
+AvgDistance: 0.0445
+OriginalPrice: 0.8705
+Predicted resale price: 160073.14"
+Q4: Forecast 2027 resale value for Kawasaki Versys 650 in Delhi,220167,"Used Support Vector Regression (RBF kernel) on 14 Kawasaki Versys 650 bikes in Delhi.
+Data years: 2015 to 2024
+Applied data scaling for better SVR performance
+Forecasted 2027 resale price: 220166.54"
+Q5: Anomalous mileage records for Electric vehicles in Maharashtra,5,"Analysis of 332 Electric vehicles in Maharashtra.
+Used IQR method with 0.5 multiplier:
+Q1=68.55, Q3=88.87, IQR=20.32
+Anomaly thresholds: lower=58.39, upper=99.03
+Detected 5 anomalous records"
+Q6: Anomalous mileage records for Electric vehicles in Uttar Pradesh,17,"Analysis of 315 Electric vehicles in Uttar Pradesh.
+Used IQR method with 0.5 multiplier:
+Q1=71.59, Q3=90.84, IQR=19.25
+Anomaly thresholds: lower=61.96, upper=100.46
+Detected 17 anomalous records"
+Q7: Distance from Central Command Post to Silver Haven Junction,12000,"Used haversine formula to calculate great-circle distance:
+Central Command Post: (27.6072, -103.2503)
+Silver Haven Junction: (27.6846, -103.3366)
+Exact calculated distance = 12096.75 meters
+Closest option from the choices = 12000 meters"
+Q8: Closest community to Central Command Post,Pleasant Springs Outpost,"Calculated haversine distances from Central Command Post to each community:
+North Falls Sanctuary: 9644m, Pleasant Springs Outpost: 9591m, Green Ridge Hamlet: 18984m, Blue Shores Sanctuary: 14102m
+The closest community is Pleasant Springs Outpost at 9591 meters."
+Q9: Evacuation route using nearest neighbor approach,Central Command Post → Pleasant Point Town → River Bluff Station → Blue Bluff Junction → Eagle Glen Outpost → Central Command Post,"Applied nearest neighbor algorithm starting from Central Command Post.
+Evaluated distances between all points using haversine formula.
+Total route distance: 49713 meters
+Final route: Central Command Post → Pleasant Point Town → River Bluff Station → Blue Bluff Junction → Eagle Glen Outpost → Central Command Post"
